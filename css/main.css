@@ -1,0 +1,114 @@
+@import 'bootstrap.min.css';
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    font-family: Segoe UI Light;
+}
+.inline {
+    float: left;
+}
+.clear-both {
+    clear: both;
+}
+.visible {
+    display: block;
+}
+.logo {
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.app,
+.app > div {
+    height: 100%;
+}
+.app-header {
+    float: left;
+    margin: 15px 0 10px 10px;
+}
+.navbar {
+    height: 65px;
+    margin-bottom: 5px;
+    border-radius: 0;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-bottom: 1px solid #bbb;
+}
+.view-container {
+    height: calc(100% - 100px);
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+.form-container {
+    height: 100%;
+    display: inline-block;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+.form-container legend {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.form-container textarea {
+    resize: none;
+    width: 100%;
+    height: calc(100% - 30px);
+    border-color: #ccc;
+    outline: 0 none;
+    padding: 5px 10px;
+}
+.form-container textarea:focus {
+    box-shadow: 0px 0px 6px 0px #ccc inset;
+}
+.output {
+    height: calc(100% - 30px);
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+.modal-dialog {
+    width: 500px;
+}
+.label-values {
+    float: left;
+    width: 30px;
+    margin: 3px 15px 0px 15px;
+}
+.input-xy-values {
+    width: 300px;
+}
+.input-sc-values {
+    width: 100px;
+}
+
+.chart {
+    margin: 15px 0;
+    font-size: 12px;
+}
+.chart .axis path,
+.chart .axis line {
+  fill: none;
+  stroke: #333;
+  stroke-width: 1px;
+  line-height: 1px;
+  shape-rendering: crispEdges;
+}
+
+.alert-info {
+    display: inline-block;
+    margin-left: 30px;
+    background-color: #fff;
+    color: #333;
+}
